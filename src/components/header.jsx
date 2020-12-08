@@ -11,7 +11,7 @@ export class Header extends Component {
                 <div className="col-md-8 col-md-offset-2 intro-text">
                   <h1>
                     {this.props.data ? this.props.data.title : "Loading"}
-                    <span></span>
+                    <span/>
                   </h1>
                   <p>
                     {this.props.data ? this.props.data.paragraph : "Loading"}

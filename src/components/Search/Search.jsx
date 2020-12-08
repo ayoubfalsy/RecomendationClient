@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-export class features extends Component {
+export class Search extends Component {
   render() {
     return (
       <div id="features" className="text-center">
@@ -13,7 +13,7 @@ export class features extends Component {
               ? this.props.data.map((d,i) => (
                   <div  key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
                     {" "}
-                    <i className={d.icon}></i>
+                    <i className={d.icon}/>
                     <h3>{d.title}</h3>
                     <p>{d.text}</p>
                   </div>
@@ -26,4 +26,4 @@ export class features extends Component {
   }
 }
 
-export default features;
+export default Search;
